@@ -1,6 +1,6 @@
 # 1. Dada la siguiente lista, imprime sus elementos en orden inverso
 nombres = ["Fulano", "Mengano", "Zutano"]
-print("Elementos en orden inverso:", nombres[-1, -1, -1])
+print("Elementos en orden inverso:", nombres[:: -1])
 
 # 2. El usuario escribe un nombre por consola
 nombre_buscar = str(input("NOMBRE: "))
